@@ -233,7 +233,7 @@ footer div {
 .cursos .img_curso {
   width: 100%;
   height: 150px;
-  background-color: black;
+  background-image: linear-gradient(to top right, rgb(23, 25, 26), rgb(23, 24, 25));
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.207);
   display: flex;
@@ -243,6 +243,8 @@ footer div {
   color: white;
   font-weight: bold;
   font-size: 25px;
+}
+.cursos .nome_curso {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
