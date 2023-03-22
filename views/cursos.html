@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="../scss/media-queries.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="../components/jquery.js" defer></script>
+    <script src="../components/animacao.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../components/cursos.js" defer></script>
+    <script src="../components/system-cursos.js" defer></script>
+
+</head>
+<body>
+    <div class="header_curso">
+        <nav data-aos="fade-down">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="logo d-flex align-items-center justify-content-left">
+                    <img src="../image/logo-bitcode.png" alt="Logo BitCode">
+                </div>
+                <div class="menu d-flex align-items-center justify-content-end">
+                    <ul class="d-flex" id="menu_desktop">
+                        <li><a href="../index.html">Home</a>
+                            <div class="line_menu"></div>
+                        </li>
+                        <li><a href="cursos.html">Cursos</a>
+                            <div class="line_menu"></div>
+                        </li>
+                        <li><a href="#">Sobre</a>
+                            <div class="line_menu"></div>
+                        </li>
+                    </ul>
+                    <ul id="menu_mobile">
+                        <a href="../index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="cursos.html">
+                            <li>Cursos</li>
+                        </a>
+                        <a href="#">
+                            <li>Sobre</li>
+                        </a>
+                    </ul>
+                    <div class="menu_burguer">
+                        <svg id="menu_open" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+                        <svg id="menu_close" class="close" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="cursos py-4 px-2">
+        <div class="container">
+            <h1 class="d-flex align-items-center text-light fs-3">
+            <div class="bar_text me-3"></div>
+            Cursos</h1>
+        </div>
+        <div class="container py-4 d-flex justify-content-around align-items-center flex-wrap">
+        </div>
+    </section>
+    <footer>
+        <div class="container d-flex justify-content-center align-items-center px-2 py-5">
+            <div>Todos os direitos reservados &copy; BitCode
+                <span id="year"></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

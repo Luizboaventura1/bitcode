@@ -1,0 +1,60 @@
+
+
+@media screen and (max-width: 768px) {
+
+    #menu_desktop {
+        display: none !important;
+    }
+
+    #menu_mobile {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.53);
+    }
+
+    #menu_mobile li {
+        padding: 15px;
+        transition: .3s;
+    }
+
+    #menu_mobile a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #menu_mobile a:hover {
+        color: rgb(136, 0, 255);
+    }
+
+    .menu_burguer {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .menu_burguer svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    main h1 {
+        font-size: 50px !important;
+    }
+
+    .chamada_single:nth-of-type(1) {
+        width: 100%;
+    }
+
+    .chamada_single:nth-of-type(2) {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    main h1 {
+        font-size: 48px !important;
+    }
+}
